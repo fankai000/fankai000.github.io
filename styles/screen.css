@@ -425,7 +425,12 @@ td,
 th {
   padding: 0;
 }
-
+body {
+  background: url("/images/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+}
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
